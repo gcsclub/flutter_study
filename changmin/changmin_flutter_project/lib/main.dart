@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'widgets/design.dart';
+import 'widgets/batch.dart';
 
 void main() {
   // runApp(const MyApp());
@@ -10,13 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-          body: Center(
-              child: Container(
-        color: Colors.blue,
-        child: testPadding,
-      ))),
-    );
+        home: Scaffold(
+            body: SizedBox(
+      width: double.infinity,
+      child: testColumn,
+    )));
   }
 }
 
