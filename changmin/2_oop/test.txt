@@ -1,0 +1,13 @@
+print('hello world')
+
+print("good")
+
+
+
+
+# 입력 상태
+ i를 눌러야 됨
+
+ # 저장 상태
+ esc
+ :wq!
