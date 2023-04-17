@@ -13,10 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            body: SizedBox(
-      width: double.infinity,
-      child: testColumn,
-    )));
+      body: Center(child: testStack),
+    ));
   }
 }
 
