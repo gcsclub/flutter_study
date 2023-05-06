@@ -3,9 +3,8 @@ import 'package:flutter/material.dart';
 class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-          body: SizedBox(
+    return Scaffold(
+      body: SizedBox(
         width: double.infinity,
         height: double.infinity,
         child: Container(
@@ -25,7 +24,7 @@ class SplashScreen extends StatelessWidget {
             ],
           ),
         ),
-      )),
+      ),
     );
   }
 }
