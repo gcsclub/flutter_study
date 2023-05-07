@@ -5,7 +5,9 @@ import 'package:flutter/material.dart';
 class HomePageView {
   List<String> image_path_list;
 
-  HomePageView(List<String> image_path_list)
+  HomePageView(
+      {required List<String> image_path_list,
+      required PageController pageController})
       : this.image_path_list = image_path_list;
 
   PageView createPageView() {

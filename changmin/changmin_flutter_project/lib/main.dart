@@ -8,8 +8,5 @@ void main() {
       .toList();
   print(image_path_list);
   print("종료");
-  runApp(MaterialApp(
-      home: HomeScreen(
-    pageView: HomePageView(image_path_list).createPageView(),
-  )));
+  runApp(MaterialApp(home: HomeScreen()));
 }
